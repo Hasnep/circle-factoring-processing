@@ -5,8 +5,8 @@ float circle_margin = 0.5; // the gap between concentric circles
 float circle_thickness = 0.25; // thickness of the lines used to draw the circles
 float circle_scale = 50; // multiplier for circles' diameters
 String export_filename = "exported.png"; // output filename including extension
-// todo: add bg colour
-// todo: add line colour
+color bg_colour = color(0, 0, 0);
+color circle_colour = color(255, 255, 255);
 
 // calculate global variables
 int n_circles = grid_shape[0] * grid_shape[1];
@@ -25,8 +25,8 @@ void setup() {
   grid_box_size[1] = image_size[1]/grid_shape[1];
 
   // drawing settings
-  graphics_export.background(0);
-  graphics_export.stroke(255);
+  graphics_export.background(bg_colour);
+  graphics_export.stroke(circle_colour);
   graphics_export.noFill();
 
   // calculate circle centres
