@@ -6,6 +6,6 @@ I used this to learn Processing, so the code is very messy.
 
 ## Example
 
-![An example of the output with default settings.](https://hasnep.github.io/images/circlefactoring/small.png)
+![An example of the output with default settings.](https://ha.nnes.dev/image/circle-factoring-processing/small.png)
 
-An example of the output with default settings. (High resolution version [here](https://hasnep.github.io/images/circlefactoring/fullsize.png).)
+An example of the output with default settings. (High resolution version [here](https://ha.nnes.dev/image/circle-factoring-processing/fullsize.png).)
